@@ -10,7 +10,7 @@ app.get('/coucou', function(request, response) {
   
  
 
-  response.send('bonjour')
+  response.send("Git c'est tout nul! Linus Torval, j'aurai ta peau !")
 })
 
 
