@@ -5,6 +5,6 @@ RUN apt-get install -y npm
 
 COPY package-lock.json .
 COPY package.json .
+COPY app.js .
 
 RUN npm install
-COPY app.js .
